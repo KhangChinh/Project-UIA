@@ -1,5 +1,10 @@
-/logs
-/crash-reports
-/xaero
-options.txt
-minecraftinstance.json
+# 1. Ignore tất cả mọi thứ ở thư mục gốc
+/*
+
+# 2. Ngoại trừ các folder này (dấu ! dùng để bỏ qua lệnh ignore)
+!/saves/
+!/config/
+!/defaultconfigs/
+
+# 3. Ngoại trừ file options.txt
+!/options.txt
