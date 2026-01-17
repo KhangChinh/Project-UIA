@@ -5,6 +5,7 @@
 !/saves/
 !/config/
 !/defaultconfigs/
+!/mods/
 
 # 3. Ngoại trừ file options.txt
 !/options.txt
