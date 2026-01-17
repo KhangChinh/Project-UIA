@@ -3,9 +3,9 @@
 # See the data packs to customize the temperature of specific blocks, liquids, armors, etc.
 [core]
 	# Whether the temperature system is enabled.
-	"Temperature Enabled" = true
+	"Temperature Enabled" = false
 	# Whether the thirst system is enabled.
-	"Thirst Enabled" = true
+	"Thirst Enabled" = false
 	# Whether the overhaul health system is enabled.
 	"Health Overhaul Enabled" = true
 	# Whether body members receive localized damages.
@@ -40,19 +40,19 @@
 		"Vanilla Freeze Enabled" = false
 		# How much health player will have initially.
 		#Range: 1.0 ~ 10000.0
-		"Initial Player Health" = 20.0
+		"Initial Player Health" = 60.0
 
 # Options related to the player food data
 [food]
 	# Food exhausted every 10 ticks. Increase the base minecraft food exhaustion.
 	#Range: 0.0 ~ 1000.0
-	"Base Food Exhaustion" = 0.05
+	"Base Food Exhaustion" = 0.06
 	# Food exhausted every 10 ticks while sprinting in addition to the sprinting minecraft food exhaustion.
 	#Range: 0.0 ~ 1000.0
-	"Sprinting Food Exhaustion" = 0.1
+	"Sprinting Food Exhaustion" = 0.12
 	# Food exhausted on every attack in addition to the minecraft attack food exhaustion.
 	#Range: 0.0 ~ 1000.0
-	"On Attack Food Exhaustion" = 0.1
+	"On Attack Food Exhaustion" = 0.12
 
 # Options related to the temperature system
 [temperature]
@@ -74,19 +74,19 @@
 	# The sea level can be defined via datapack under the dimension's temperature.
 	# As an example, a value of -6 will reduce the player's temperature by 6 for each 64 blocks (the calculus is done linearly).
 	#Range: -1000.0 ~ 1000.0
-	"Altitude Modifier" = -6.0
+	"Altitude Modifier" = -5.0
 
 	[temperature.temperature-immunity]
 		# If enabled, players will be immune to temperature effects after death.
 		"Temperature Immunity On Death Enabled" = true
 		# Temperature immunity period in ticks while the player is immune to temperature effects after death.
 		#Range: 0 ~ 100000
-		"Temperature Immunity On Death Time" = 1800
+		"Temperature Immunity On Death Time" = 6000
 		# If enabled, players will be immune to temperature effects on first spawn in a world.
 		"Temperature Immunity On First Spawn Enabled" = true
 		# Temperature immunity period in ticks while the player is immune to temperature effects on first spawn.
 		#Range: 0 ~ 100000
-		"Temperature Immunity On First Spawn Time" = 1800
+		"Temperature Immunity On First Spawn Time" = 6000
 
 	[temperature.secondary_effects]
 		# If enabled, players will also receive other effects from their current temperature state.
@@ -97,11 +97,11 @@
 		"Cold Temperature Secondary Effects" = true
 		# How much thirst exhaustion will be added every 50 ticks with no amplification effect, when the player suffers from heat.
 		#Range: 0.0 ~ 1000.0
-		"Heat Thirst Effect Modifier" = 0.2
+		"Heat Thirst Effect Modifier" = 0.5
 		# How much food exhaustion will be added every 50 ticks with no amplification effect, when the player suffers from frostbite.
 		# As reference, the hunger effect add 0.025 food exhaustion every 50 ticks.
 		#Range: 0.0 ~ 1000.0
-		"Cold Hunger Modifier" = 0.1
+		"Cold Hunger Modifier" = 0.5
 
 	[temperature.wetness]
 		# Enable the wetness mechanic.
@@ -118,10 +118,10 @@
 		"Wetness Tick Timer" = 10
 		# How much the wetness decrease when out of water.
 		#Range: -1000 ~ 0
-		"Wetness Decrease" = -3
+		"Wetness Decrease" = -5
 		# How much the wetness increase when under rain.
 		#Range: 0 ~ 1000
-		"Wetness Under Rain Increase" = 7
+		"Wetness Under Rain Increase" = 5
 		# How much the wetness increase when the player is in a fluid, scale by the amount of fluid in the block.
 		# The defined value is for a full block of fluid, and goes up to 2 times this value when fully immerge.
 		#Range: 0 ~ 1000
@@ -131,7 +131,7 @@
 		# How much nearby players increase the ambient temperature by.
 		# Note that this value stacks!
 		#Range: -1000.0 ~ 1000.0
-		"Player Huddling Modifier" = 0.5
+		"Player Huddling Modifier" = 2.0
 		# The radius, in blocks, around which players will add to each other's temperature.
 		#Range: 0 ~ 10
 		"Player Huddling Radius" = 1
@@ -139,7 +139,7 @@
 	[temperature.biomes]
 		# How much a biome's temperature effects are multiplied.
 		#Range: 0.0 ~ 1000.0
-		"Biome Temperature Multiplier" = 18.0
+		"Biome Temperature Multiplier" = 34.0
 		# Whether biomes will have an effect on a player's temperature.
 		"Biomes affect Temperature" = true
 		# How much hot biome's dryness will make nights really cold.
@@ -190,15 +190,15 @@
 		# How strongly time in extreme temperature biomes affect player's temperature.
 		# Extreme temperature biomes (like snowy taiga, deserts, ...) will multiply the time based temperature by this value, while temperate biome won't be affected by this value, following a linear.
 		#Range: 1.0 ~ Infinity
-		"Biome Time Multiplier" = 1.75
+		"Biome Time Multiplier" = 1.0
 		# Staying in the shade or during cloudy weather will reduce player's temperature by this amount based on time of the day (maximum effect at noon, following sinusoidal).
 		# It means that for a value of -6, the body temperature of the player is reduced by 6.
 		# Only effective when reaching the threshold and during day time!
 		#Range: -1000.0 ~ 1000.0
-		"Shade Time Modifier" = -6.0
+		"Shade Time Modifier" = 0.0
 		# Defines when the biome temperature added by the season temperature (if seasons mod loaded) will trigger a shade effect.
 		#Range: 0.0 ~ 10000.0
-		"Shade Time Modifier Threshold" = 9.0
+		"Shade Time Modifier Threshold" = 0.0
 
 	# Temperature coat adds temperature effects on armors by using the sewing table.
 	# Adaptive means the coating will maintain the player's temperature temperate.
@@ -207,29 +207,29 @@
 		# Add a heating resistance on armors.
 		[temperature.coat.heating]
 			#Range: 0.0 ~ 1000.0
-			"Heating Coat I" = 2.0
+			"Heating Coat I" = 3.0
 			#Range: 0.0 ~ 1000.0
-			"Heating Coat II" = 3.0
+			"Heating Coat II" = 5.0
 			#Range: 0.0 ~ 1000.0
-			"Heating Coat III" = 4.0
+			"Heating Coat III" = 7.0
 
 		# Add a cooling resistance on armors.
 		[temperature.coat.cooling]
 			#Range: 0.0 ~ 1000.0
-			"Cooling Coat I" = 2.0
+			"Cooling Coat I" = 3.0
 			#Range: 0.0 ~ 1000.0
-			"Cooling Coat II" = 3.0
+			"Cooling Coat II" = 5.0
 			#Range: 0.0 ~ 1000.0
-			"Cooling Coat III" = 4.0
+			"Cooling Coat III" = 7.0
 
 		# Add a temperature resistance on armors that can both heat and cool the player.
 		[temperature.coat.thermal]
 			#Range: 0.0 ~ 1000.0
-			"Thermal Coat I" = 2.0
+			"Thermal Coat I" = 3.0
 			#Range: 0.0 ~ 1000.0
-			"Thermal Coat II" = 3.0
+			"Thermal Coat II" = 5.0
 			#Range: 0.0 ~ 1000.0
-			"Thermal Coat III" = 4.0
+			"Thermal Coat III" = 7.0
 
 	[temperature.advanced]
 		# Maximum influence distance, in blocks, where thermal sources will have an effect on temperature.
@@ -289,35 +289,35 @@
 
 				[temperature.integration.serene-seasons.temperate.spring]
 					#Range: -1000.0 ~ 1000.0
-					"Early Spring Modifier" = -3.0
+					"Early Spring Modifier" = 0.0
 					#Range: -1000.0 ~ 1000.0
 					"Mid Spring Modifier" = 0.0
 					#Range: -1000.0 ~ 1000.0
-					"Late Spring Modifier" = 3.0
+					"Late Spring Modifier" = 0.0
 
 				[temperature.integration.serene-seasons.temperate.summer]
 					#Range: -1000.0 ~ 1000.0
-					"Early Summer Modifier" = 6.0
+					"Early Summer Modifier" = 4.0
 					#Range: -1000.0 ~ 1000.0
-					"Mid Summer Modifier" = 10.0
+					"Mid Summer Modifier" = 8.0
 					#Range: -1000.0 ~ 1000.0
-					"Late Summer Modifier" = 6.0
+					"Late Summer Modifier" = 4.0
 
 				[temperature.integration.serene-seasons.temperate.autumn]
 					#Range: -1000.0 ~ 1000.0
-					"Early Autumn Modifier" = 3.0
+					"Early Autumn Modifier" = 0.0
 					#Range: -1000.0 ~ 1000.0
 					"Mid Autumn Modifier" = 0.0
 					#Range: -1000.0 ~ 1000.0
-					"Late Autumn Modifier" = -3.0
+					"Late Autumn Modifier" = 0.0
 
 				[temperature.integration.serene-seasons.temperate.winter]
 					#Range: -1000.0 ~ 1000.0
-					"Early Winter Modifier" = -7.0
+					"Early Winter Modifier" = -4.0
 					#Range: -1000.0 ~ 1000.0
-					"Mid Winter Modifier" = -12.0
+					"Mid Winter Modifier" = -8.0
 					#Range: -1000.0 ~ 1000.0
-					"Late Winter Modifier" = -7.0
+					"Late Winter Modifier" = -4.0
 
 			# Temperature modifiers per season in tropical biomes.
 			[temperature.integration.serene-seasons.tropical]
@@ -344,10 +344,10 @@
 
 			# Temperature modifiers per season. Each season is subdivided in 6 sub seasons. The value is reached at the middle of the sub season, and smoothly transition from one to another.
 			[temperature.integration.ecliptic-seasons.temperature]
-				"Spring Modifier" = [-10.0, -7.0, -5.0, -3.0, -1.0, 0.0]
-				"Summer Modifier" = [1.0, 3.0, 5.0, 7.0, 9.0, 10.0]
-				"Autumn Modifier" = [9.0, 7.0, 5.0, 3.0, 1.0, 0.0]
-				"Winter Modifier" = [-1.0, -3.0, -5.0, -7.0, -10.0, -12.0]
+				"Spring Modifier" = [-4.0, -2.0, 0.0, 0.0, 0.0, 0.0]
+				"Summer Modifier" = [3.0, 5.0, 7.0, 10.0, 10.0, 7.0]
+				"Autumn Modifier" = [4.0, 2.0, 0.0, 0.0, 0.0, 0.0]
+				"Winter Modifier" = [-3.0, -5.0, -7.0, -10.0, -10.0, -7.0]
 
 # Options related to thirst feature
 [thirst]
@@ -361,7 +361,7 @@
 	# How much thirst exhaustion will be added every 50 ticks when the player suffers from non amplified Thirst Effect.
 	# The player will suffer Thirst Effect from dirty water for example.
 	#Range: 0.0 ~ 1000.0
-	"Thirst Effect Modifier" = 0.25
+	"Thirst Effect Modifier" = 0.5
 
 	[thirst.exhaustion]
 		# Hydration exhausted every 10 ticks.
@@ -372,13 +372,13 @@
 		"Sprinting Hydration Exhaustion" = 0.1
 		# Hydration exhausted on every jump.
 		#Range: 0.0 ~ 1000.0
-		"On Jump Hydration Exhaustion" = 0.15
+		"On Jump Hydration Exhaustion" = 0.25
 		# Hydration exhausted on every block break.
 		#Range: 0.0 ~ 1000.0
-		"On Block Break Hydration Exhaustion" = 0.07
+		"On Block Break Hydration Exhaustion" = 0.075
 		# Hydration exhausted on every attack.
 		#Range: 0.0 ~ 1000.0
-		"On Attack Hydration Exhaustion" = 0.3
+		"On Attack Hydration Exhaustion" = 0.25
 
 	[thirst.canteen]
 		# If enabled, the player can water himself by using the canteen while crouching.
@@ -472,10 +472,10 @@
 		# The Resilient Hearts is the number of heart below which Broken Hearts can no longer be added.
 		# By default, the player has 2 resilient heart, meaning no matter the amount of broken hearts, the player won't go below 2 hearts.
 		#Range: 1 ~ 10000
-		"Minimum Amount Of Player's Heart With Broken Hearts (Broken Heart Resilience)" = 2
+		"Minimum Amount Of Player's Heart With Broken Hearts (Broken Heart Resilience)" = 5
 		# Amount of Broken Hearts added per limbs fully injured.
 		#Range: 0.0 ~ 10000.0
-		"Added Broken Hearts Per Injured Limb" = 0.1
+		"Added Broken Hearts Per Injured Limb" = 0.15
 		# How broken hearts inflicted per injured limbs are calculated. The total amount will be round down to have an integer amount of broken hearts.
 		# For example, if the amount per injured limb is 0.1 with mode Player Dynamic and the player has 3 limbs injured, the total amount is 3 * (0.1 * 20), 20 being the default player max health, so 6 broken hearts will be inflicted.
 		# Accepted values are as follows:
@@ -492,16 +492,16 @@
 [body-damage]
 	# Multiply the damage taken by the player when shot in the head without helmet.
 	#Range: 1.0 ~ 1000.0
-	"Headshot Multiplier" = 2.0
+	"Headshot Multiplier" = 1.5
 	# How much of the hurt player's damage is assigned to the body parts.
 	#Range: 0.0 ~ 1000.0
-	"Body Damage Multiplier" = 1.0
+	"Body Damage Multiplier" = 1.2
 	# How much health ratio are recovered in all body parts from bed sleeping.
 	#Range: 0.0 ~ 1.0
-	"Body Part Health Ratio Recovered" = 1.0
+	"Body Part Health Ratio Recovered" = 0.5
 	# How much health ratio are recovered from bed sleeping.
 	#Range: 0.0 ~ 1.0
-	"Health Ratio Recovered" = 1.0
+	"Health Ratio Recovered" = 0.5
 	# How much food is exhausted when a limb regenerates based on the amount of health regenerated.
 	# For each 1 health regenerated, the food is exhausted by this value.
 	#Range: 0.0 ~ 1000.0
@@ -514,110 +514,6 @@
 	# The Addiction Effect prevents you from re-using the morphine item.
 	#Range: 0 ~ 100000
 	"Painkiller Addiction Duration" = 3600
-
-	[body-damage.healing-limbs]
-
-		[body-damage.healing-limbs.passive-regeneration]
-			# The limbs will be healed when the player is at max health.
-			" Passive Limb Regeneration On Full Health" = true
-			# The limbs will be healed when the player is under one of the mentioned effect, the most damaged limb first.
-			"Passive Limb Regeneration On Effects" = ["minecraft:regeneration"]
-			# Whether the amplification of the effect increase the limb regeneration speed.
-			# The speed increase follows the same logic as the Regeneration Effect Amplification :
-			#    Amplifier 1 -> tick timer /2, Amplifier 2 -> tick timer /4, ...
-			"Passive Limb Regeneration Amplification Enabled" = true
-			# Amount of limb health regenerated, the most damaged limb first.
-			#Range: 0.0 ~ 1000.0
-			"Passive Limb Health Regenerated" = 0.5
-			# How fast in ticks the limbs regenerate passively. 20 ticks = 1s
-			#Range: 0 ~ 10000
-			"Passive Limb Regeneration Tick Timer" = 200
-
-		[body-damage.healing-limbs.proportional-regeneration]
-			# Minimum health threshold (as ratio of max health minus broken hearts) to start regenerating limbs.
-			#Range: 0.0 ~ 1.0
-			"Proportional Limb Regen Min Threshold" = 0.5
-			# Minimum limb heal value per tick rate when at min threshold. Spread proportionally across all body parts.
-			#Range: 0.0 ~ 1000.0
-			"Proportional Limb Regen Min Heal Value" = 0.0
-			# Maximum limb heal value per tick rate when at full health. Spread proportionally across all body parts.
-			#Range: 0.0 ~ 1000.0
-			"Proportional Limb Regen Max Heal Value" = 4.0
-			# How often in ticks the proportional regeneration occurs. 20 ticks = 1s
-			#Range: 1 ~ 10000
-			"Proportional Limb Regen Tick Rate" = 100
-			# Rate at which healing increases from min to max. 1.0 = linear, >1 = exponential.
-			#Range: 0.1 ~ 10.0
-			"Proportional Limb Regen Increase Rate" = 1.0
-
-		[body-damage.healing-limbs.custom-health-regen]
-			# Enable custom health regeneration when natural regen is off. Consumes saturation and hunger.
-			"Custom Health Regen Enabled" = true
-			# Amount of health to regenerate per tick rate.
-			#Range: 0.0 ~ 1000.0
-			"Custom Health Regen Rate" = 1.0
-			# How often in ticks health regenerates. 20 ticks = 1s
-			#Range: 1 ~ 10000
-			"Custom Health Regen Tick Rate" = 200
-			# Food exhaustion per health point regenerated.
-			#Range: 0.0 ~ 100.0
-			"Custom Health Regen Food Exhaustion" = 6.0
-
-		# The First Aid Supplies overrides the passive limb regeneration as its effects is meant to be stronger.
-		[body-damage.healing-limbs.first-aid-supplies]
-			# The First Aid Supplies regenerate limb health passively, either by holding it or using Curios mod, the most damaged limb first.
-			#Range: 0.0 ~ 1000.0
-			"First Aid Supplies Limb Health Regenerated" = 0.25
-			# How a player's limb health regenerated is defined. Accepted values are as follows:
-			#   SIMPLE - The limb health regenerated is a fixed value defined in First Aid Supplies Limb Health Regenerated.
-			#   PLAYER_DYNAMIC - The limb health regenerated is a percentage value of the player max health using the percentage value defined in First Aid Supplies Limb Health Regenerated.
-			#   LIMB_DYNAMIC - The limb health regenerated is a percentage value of the limb max health using the percentage value defined in First Aid Supplies Limb Health Regenerated.
-			# Any other value will default to SIMPLE.
-			#Allowed Values: SIMPLE, PLAYER_DYNAMIC, LIMB_DYNAMIC
-			"First Aid Supplies Limb Regeneration Mode" = "LIMB_DYNAMIC"
-			# Whether the exceeded limb health regenerated will heal the next most damaged limb.
-			# Only available for Regeneration Mode SIMPLE or PLAYER_DYNAMIC.
-			"First Aid Supplies Healing Overflow" = false
-			# How fast in ticks the First Aid Supplies will heal limbs. 20 ticks = 1s
-			#Range: 0 ~ 10000
-			"First Aid Supplies Tick Timer" = 300
-			# Whether the First Aid Supplies exhaust food when healing limbs, such as the other healing items.
-			"First Aid Supplies Exhausts Food" = true
-			# The First Aid Supplies will heal limbs faster when the player is under one of the mentioned effect.
-			"First Aid Supplies Boosted On Effects" = ["minecraft:regeneration"]
-			# How much the First Aid Supplies tick timer is multiplied when boosted. 
-			# A value of 1 would deactivate the speed boost. 0.5 makes the heal twice faster.
-			#Range: 0.1 ~ 1.0
-			"First Aid Supplies Tick Timer Multiplier" = 0.75
-
-		[body-damage.healing-limbs.healing-items]
-			# Amount of player health regenerated by the Recovery Effect every effect tick.
-			# For comparison, the Regeneration Effect healing amount is 1.
-			#Range: 0.0 ~ 1000.0
-			"Recovery Effect Healing Amount" = 0.1
-			# Item use time in ticks.
-			#Range: 0 ~ 1000
-			"Healing Herbs Use Time" = 20
-			# Item use time in ticks.
-			#Range: 0 ~ 1000
-			"Plaster Use Time" = 20
-			# Item use time in ticks.
-			#Range: 0 ~ 1000
-			"Bandage Use Time" = 30
-			# Item use time in ticks.
-			#Range: 0 ~ 1000
-			"Tonic Use Time" = 50
-			# Item use time in ticks.
-			#Range: 0 ~ 1000
-			"Medkit Use Time" = 50
-
-		[body-damage.healing-limbs.morphine]
-			# Item use time in ticks.
-			#Range: 0 ~ 1000
-			"Morphine Use Time" = 30
-			# Painkiller effect duration in ticks. This effect prevents the player to be affected by broken limbs effects.
-			#Range: 0 ~ 10000
-			"Morphine Painkiller Duration" = 1800
 
 	[body-damage.body-parts-health]
 		# How a player's body part health is determined. Accepted values are as follows:
@@ -654,38 +550,38 @@
 			"Head Part Effect Amplifiers" = [0]
 			# The list of thresholds for which each effect will be triggered. A threshold is a percentage of remaining head health.
 			# 0 means the head is fully damaged.
-			"Head Part Effect Thresholds" = [0.2]
+			"Head Part Effect Thresholds" = [0.5]
 
 		[body-damage.body-parts-effects.arms]
 			"Arms Part Effects" = ["minecraft:mining_fatigue"]
 			"Arms Part Effect Amplifiers" = [0]
-			"Arms Part Effect Thresholds" = [0.2]
+			"Arms Part Effect Thresholds" = [0.25]
 			# These effects will be triggered when both arms reach the thresholds.
 			# If a same effect is used with a higher amplifier, the higher prevails (normal Minecraft behaviour).
 			"Both Arms Part Effects" = ["minecraft:weakness"]
 			"Both Arms Part Effect Amplifiers" = [0]
-			"Both Arms Part Effect Thresholds" = [0.2]
+			"Both Arms Part Effect Thresholds" = [0.25]
 
 		[body-damage.body-parts-effects.chest]
 			"Chest Part Effects" = ["legendarysurvivaloverhaul:vulnerability"]
-			"Chest Part Effect Amplifier" = [0]
-			"Chest Part Effect Thresholds" = [0.2]
+			"Chest Part Effect Amplifier" = [1, 0]
+			"Chest Part Effect Thresholds" = [0.25, 0.5]
 
 		[body-damage.body-parts-effects.legs]
 			"Legs Part Effects" = ["legendarysurvivaloverhaul:hard_falling"]
-			"Legs Part Effect Amplifiers" = [0]
-			"Legs Part Effect Thresholds" = [0.2]
+			"Legs Part Effect Amplifiers" = [1, 0]
+			"Legs Part Effect Thresholds" = [0.25, 0.5]
 			"Both Legs Part Effects" = ["legendarysurvivaloverhaul:hard_falling"]
-			"Both Legs Part Effect Amplifiers" = [1]
-			"Both Legs Part Effect Thresholds" = [0.2]
+			"Both Legs Part Effect Amplifiers" = [2, 1]
+			"Both Legs Part Effect Thresholds" = [0.25, 0.5]
 
 		[body-damage.body-parts-effects.feet]
 			"Feet Part Effects" = ["minecraft:slowness"]
 			"Feet Part Effect Amplifiers" = [0]
-			"Feet Part Effect Thresholds" = [0.2]
+			"Feet Part Effect Thresholds" = [0.25]
 			"Both Feet Part Effects" = ["minecraft:slowness"]
 			"Both Feet Part Effect Amplifiers" = [1]
-			"Both Feet Part Effect Thresholds" = [0.2]
+			"Both Feet Part Effect Thresholds" = [0.25]
 
 	[body-damage.integration]
 
@@ -693,4 +589,108 @@
 			# Painkiller Addiction effect prevents the abusive usage of Painkiller effect that prevents all negative effects from limbs.
 			# Syringe Morphine share the same configuration as Morphine item
 			"Syringe Morphine Apply Painkiller Addiction" = true
+
+	[body-damage.healing-limbs]
+
+		[body-damage.healing-limbs.passive-regeneration]
+			# The limbs will be healed when the player is under one of the mentioned effect, the most damaged limb first.
+			"Passive Limb Regeneration On Effects" = ["minecraft:regeneration"]
+			# Whether the amplification of the effect increase the limb regeneration speed.
+			# The speed increase follows the same logic as the Regeneration Effect Amplification :
+			#    Amplifier 1 -> tick timer /2, Amplifier 2 -> tick timer /4, ...
+			"Passive Limb Regeneration Amplification Enabled" = false
+			# Amount of limb health regenerated, the most damaged limb first.
+			#Range: 0.0 ~ 1000.0
+			"Passive Limb Health Regenerated" = 0.25
+			# How fast in ticks the limbs regenerate passively. 20 ticks = 1s
+			#Range: 0 ~ 10000
+			"Passive Limb Regeneration Tick Timer" = 20
+			# The limbs will be healed when the player is at max health.
+			" Passive Limb Regeneration On Full Health" = true
+
+		# The First Aid Supplies overrides the passive limb regeneration as its effects is meant to be stronger.
+		[body-damage.healing-limbs.first-aid-supplies]
+			# The First Aid Supplies regenerate limb health passively, either by holding it or using Curios mod, the most damaged limb first.
+			#Range: 0.0 ~ 1000.0
+			"First Aid Supplies Limb Health Regenerated" = 0.25
+			# How a player's limb health regenerated is defined. Accepted values are as follows:
+			#   SIMPLE - The limb health regenerated is a fixed value defined in First Aid Supplies Limb Health Regenerated.
+			#   PLAYER_DYNAMIC - The limb health regenerated is a percentage value of the player max health using the percentage value defined in First Aid Supplies Limb Health Regenerated.
+			#   LIMB_DYNAMIC - The limb health regenerated is a percentage value of the limb max health using the percentage value defined in First Aid Supplies Limb Health Regenerated.
+			# Any other value will default to SIMPLE.
+			#Allowed Values: SIMPLE, PLAYER_DYNAMIC, LIMB_DYNAMIC
+			"First Aid Supplies Limb Regeneration Mode" = "LIMB_DYNAMIC"
+			# Whether the exceeded limb health regenerated will heal the next most damaged limb.
+			# Only available for Regeneration Mode SIMPLE or PLAYER_DYNAMIC.
+			"First Aid Supplies Healing Overflow" = false
+			# How fast in ticks the First Aid Supplies will heal limbs. 20 ticks = 1s
+			#Range: 0 ~ 10000
+			"First Aid Supplies Tick Timer" = 300
+			# Whether the First Aid Supplies exhaust food when healing limbs, such as the other healing items.
+			"First Aid Supplies Exhausts Food" = true
+			# The First Aid Supplies will heal limbs faster when the player is under one of the mentioned effect.
+			"First Aid Supplies Boosted On Effects" = ["minecraft:regeneration"]
+			# How much the First Aid Supplies tick timer is multiplied when boosted. 
+			# A value of 1 would deactivate the speed boost. 0.5 makes the heal twice faster.
+			#Range: 0.1 ~ 1.0
+			"First Aid Supplies Tick Timer Multiplier" = 0.75
+
+		[body-damage.healing-limbs.healing-items]
+			# Amount of player health regenerated by the Recovery Effect every effect tick.
+			# For comparison, the Regeneration Effect healing amount is 1.
+			#Range: 0.0 ~ 1000.0
+			"Recovery Effect Healing Amount" = 1.0
+			# Item use time in ticks.
+			#Range: 0 ~ 1000
+			"Healing Herbs Use Time" = 5
+			# Item use time in ticks.
+			#Range: 0 ~ 1000
+			"Plaster Use Time" = 5
+			# Item use time in ticks.
+			#Range: 0 ~ 1000
+			"Bandage Use Time" = 10
+			# Item use time in ticks.
+			#Range: 0 ~ 1000
+			"Tonic Use Time" = 20
+			# Item use time in ticks.
+			#Range: 0 ~ 1000
+			"Medkit Use Time" = 40
+
+		[body-damage.healing-limbs.morphine]
+			# Item use time in ticks.
+			#Range: 0 ~ 1000
+			"Morphine Use Time" = 20
+			# Painkiller effect duration in ticks. This effect prevents the player to be affected by broken limbs effects.
+			#Range: 0 ~ 10000
+			"Morphine Painkiller Duration" = 1800
+
+		[body-damage.healing-limbs.proportional-regeneration]
+			# Minimum health threshold (as ratio of max health minus broken hearts) to start regenerating limbs.
+			#Range: 0.0 ~ 1.0
+			"Proportional Limb Regen Min Threshold" = 0.5
+			# Minimum limb heal value per tick rate when at min threshold. Spread proportionally across all body parts.
+			#Range: 0.0 ~ 1000.0
+			"Proportional Limb Regen Min Heal Value" = 0.0
+			# Maximum limb heal value per tick rate when at full health. Spread proportionally across all body parts.
+			#Range: 0.0 ~ 1000.0
+			"Proportional Limb Regen Max Heal Value" = 4.0
+			# How often in ticks the proportional regeneration occurs. 20 ticks = 1s
+			#Range: 1 ~ 10000
+			"Proportional Limb Regen Tick Rate" = 100
+			# Rate at which healing increases from min to max. 1.0 = linear, >1 = exponential.
+			#Range: 0.1 ~ 10.0
+			"Proportional Limb Regen Increase Rate" = 1.0
+
+		[body-damage.healing-limbs.custom-health-regen]
+			# Enable custom health regeneration when natural regen is off. Consumes saturation and hunger.
+			"Custom Health Regen Enabled" = true
+			# Amount of health to regenerate per tick rate.
+			#Range: 0.0 ~ 1000.0
+			"Custom Health Regen Rate" = 1.0
+			# How often in ticks health regenerates. 20 ticks = 1s
+			#Range: 1 ~ 10000
+			"Custom Health Regen Tick Rate" = 200
+			# Food exhaustion per health point regenerated.
+			#Range: 0.0 ~ 100.0
+			"Custom Health Regen Food Exhaustion" = 6.0
 
