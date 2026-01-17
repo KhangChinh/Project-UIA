@@ -129,7 +129,7 @@
 		wall-run_continuable_tick = 40
 		#How long you can do Slide
 		#Range: 10 ~ 60
-		sliding_continuable_tick = 30
+		sliding_continuable_tick = 20
 		#FastRun speed modifier
 		#Range: 0.001 ~ 10.0
 		max_fast-run_modifier = 2.0

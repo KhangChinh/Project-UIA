@@ -78,19 +78,11 @@
         "isSelected": true
       },
       {
-        "path": "config\\jei\\world\\local\\UIA",
-        "isSelected": true
-      },
-      {
         "path": "config\\jei\\world\\local\\UIUIA",
         "isSelected": true
       },
       {
-        "path": "config\\jei\\world\\server",
-        "isSelected": true
-      },
-      {
-        "path": "config\\jei\\world\\server\\Minecraft_Server_1802e5eb",
+        "path": "config\\jei\\world\\local\\UIUIA\\bookmarks.ini",
         "isSelected": true
       },
       {
@@ -1178,10 +1170,6 @@
         "isSelected": true
       },
       {
-        "path": "config\\xaero\\minimap\\profiles\\entity_radar_categories",
-        "isSelected": true
-      },
-      {
         "path": "config\\xaero\\minimap\\profiles\\info_display_config",
         "isSelected": true
       },
@@ -1422,42 +1410,6 @@
         "isSelected": true
       },
       {
-        "path": "crash-reports",
-        "isSelected": false
-      },
-      {
-        "path": "crash-reports\\crash-2026-01-17_12.49.22-fml.txt",
-        "isSelected": false
-      },
-      {
-        "path": "crash-reports\\crash-2026-01-17_12.59.35-fml.txt",
-        "isSelected": false
-      },
-      {
-        "path": "crash-reports\\crash-2026-01-17_13.01.00-fml.txt",
-        "isSelected": false
-      },
-      {
-        "path": "crash-reports\\crash-2026-01-17_13.02.51-fml.txt",
-        "isSelected": false
-      },
-      {
-        "path": "crash-reports\\crash-2026-01-17_13.39.54-client.txt",
-        "isSelected": false
-      },
-      {
-        "path": "crash-reports\\crash-2026-01-17_13.41.44-client.txt",
-        "isSelected": false
-      },
-      {
-        "path": "crash-reports\\crash-2026-01-17_15.17.58-client.txt",
-        "isSelected": false
-      },
-      {
-        "path": "crash-reports\\crash-2026-01-17_15.20.17-client.txt",
-        "isSelected": false
-      },
-      {
         "path": "customnpcs",
         "isSelected": false
       },
@@ -1486,10 +1438,6 @@
         "isSelected": false
       },
       {
-        "path": "datapacks",
-        "isSelected": true
-      },
-      {
         "path": "defaultconfigs",
         "isSelected": false
       },
@@ -1506,10 +1454,6 @@
         "isSelected": false
       },
       {
-        "path": "downloads",
-        "isSelected": false
-      },
-      {
         "path": "logs",
         "isSelected": false
       },
@@ -1518,107 +1462,7 @@
         "isSelected": false
       },
       {
-        "path": "logs\\telemetry\\20260117-1.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20260117-10.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20260117-11.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20260117-12.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20260117-13.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20260117-14.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20260117-15.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20260117-16.json",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20260117-2.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20260117-3.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20260117-4.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20260117-5.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20260117-6.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20260117-7.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20260117-8.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20260117-9.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\2026-01-17-1.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\2026-01-17-2.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\2026-01-17-3.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\2026-01-17-4.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\2026-01-17-5.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\2026-01-17-6.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\2026-01-17-7.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\customnpcs-1.log",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\customnpcs-2.log",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\customnpcs-3.log",
+        "path": "logs\\telemetry\\20260117-1.json",
         "isSelected": false
       },
       {
@@ -1888,10 +1732,6 @@
       {
         "path": "schematics",
         "isSelected": false
-      },
-      {
-        "path": "shaderpacks",
-        "isSelected": true
       },
       {
         "path": "tacz",
@@ -18594,10 +18434,6 @@
         "isSelected": false
       },
       {
-        "path": "tacz_backup\\elitex_quality_guns",
-        "isSelected": false
-      },
-      {
         "path": "tacz_backup\\tacz_default_gun",
         "isSelected": false
       },
@@ -18626,6 +18462,14 @@
         "isSelected": false
       },
       {
+        "path": "xaero\\minimap\\UIUIA\\dim%0",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\UIUIA\\dim%0\\waypoints.txt",
+        "isSelected": false
+      },
+      {
         "path": "xaero\\minimap\\UIUIA\\config.txt",
         "isSelected": false
       },
@@ -18642,31 +18486,23 @@
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\UIUIA\\null\\cache",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\world-map\\UIUIA\\null\\cache\\3",
-        "isSelected": false
-      },
-      {
         "path": "xaero\\world-map\\UIUIA\\null\\cache_1",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\UIUIA\\null\\cache_1\\-1_-1.xwmc.outdated",
+        "path": "xaero\\world-map\\UIUIA\\null\\cache_1\\-1_-1.xwmc",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\UIUIA\\null\\cache_1\\-1_0.xwmc.outdated",
+        "path": "xaero\\world-map\\UIUIA\\null\\cache_1\\-1_0.xwmc",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\UIUIA\\null\\cache_1\\0_-1.xwmc.outdated",
+        "path": "xaero\\world-map\\UIUIA\\null\\cache_1\\0_-1.xwmc",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\UIUIA\\null\\cache_1\\0_0.xwmc.outdated",
+        "path": "xaero\\world-map\\UIUIA\\null\\cache_1\\0_0.xwmc",
         "isSelected": false
       },
       {
@@ -18682,19 +18518,43 @@
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-1\\cache_1\\-1_-1.xwmc.outdated",
+        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-1\\cache_1\\-1_-1.xwmc",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-1\\cache_1\\-1_0.xwmc.outdated",
+        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-1\\cache_1\\-1_0.xwmc",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-1\\cache_1\\0_-1.xwmc.outdated",
+        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-1\\cache_1\\0_-1.xwmc",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-1\\cache_1\\0_0.xwmc.outdated",
+        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-1\\cache_1\\0_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-2",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-2\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-2\\cache_1\\-1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-2\\cache_1\\-1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-2\\cache_1\\0_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-2\\cache_1\\0_0.xwmc",
         "isSelected": false
       },
       {
@@ -18707,14 +18567,6 @@
       },
       {
         "path": "xaero\\world-map\\UIUIA\\server_config.txt",
-        "isSelected": false
-      },
-      {
-        "path": "XaeroWaypoints_BACKUP240807",
-        "isSelected": false
-      },
-      {
-        "path": "XaeroWaypoints_BACKUP240807\\backup",
         "isSelected": false
       },
       {

@@ -1,10 +1,10 @@
 {
   "ammo": "tacz:12g",
-  "rpm": 350,
+  "rpm": 250,
   "bullet": {
     "life": 0.6,
     "bullet_amount": 10,
-    "damage": 30,
+    "damage": 36,
     "tracer_count_interval": 0,
     "extra_damage": {
       "armor_ignore": 0.0,

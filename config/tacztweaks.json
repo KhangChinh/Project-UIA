@@ -65,7 +65,7 @@
     },
     "inaccuracy": {
       "addend": 0.0,
-      "multiplier": 1.0,
+      "multiplier": 1.2,
       "function": ""
     },
     "standInaccuracy": {
@@ -100,7 +100,7 @@
     },
     "verticalRecoil": {
       "addend": 0.0,
-      "multiplier": 1.0,
+      "multiplier": 1.5,
       "function": ""
     },
     "horizontalRecoil": {
@@ -110,7 +110,7 @@
     },
     "aimVerticalRecoil": {
       "addend": 0.0,
-      "multiplier": 1.0,
+      "multiplier": 1.2,
       "function": ""
     },
     "aimHorizontalRecoil": {
@@ -147,14 +147,14 @@
   "tweaks": {
     "forceFirstPersonShootingSound": false,
     "betterMonoConversion": false,
-    "betterInaccuracy": false,
+    "betterInaccuracy": true,
     "bulletProtection": false,
     "endermenEvadeBullets": false,
-    "disableRefitOnAdventure": false,
+    "disableRefitOnAdventure": true,
     "alwaysFilterByHand": true,
     "suppressHeadHitSounds": false,
     "suppressFleshHitSounds": false,
-    "suppressKillSounds": false,
+    "suppressKillSounds": true,
     "hideHitMarkers": false
   },
   "debug": {

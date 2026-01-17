@@ -24,11 +24,11 @@
       ]
     },
     "speed": 380,
-    "gravity": 0.15,
+    "gravity": 0.10,
     "knockback": 0,
     "friction": 0.015,
     "ignite": false,
-    "pierce": 2
+    "pierce": 1
   },
   "reload": {
     "type": "magazine",
@@ -41,12 +41,12 @@
       "tactical": 2.25
     }
   },
-  "draw_time": 0.35,
-  "put_away_time": 0.4,
-  "aim_time": 0.17,
+  "draw_time": 0.4,
+  "put_away_time": 0.45,
+  "aim_time": 0.35,
   "sprint_time": 0.2,
-  "bolt_action_time": 0.85,
-  "weight": 6.5,
+  "bolt_action_time": 1,
+  "weight": 8.5,
   "movement_speed": {
     // 默认修正
     "base": 0.0,

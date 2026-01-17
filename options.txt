@@ -54,7 +54,7 @@ textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
 advancedItemTooltips:false
-pauseOnLostFocus:true
+pauseOnLostFocus:false
 overrideWidth:0
 overrideHeight:0
 chatHeightFocused:1.0
@@ -152,7 +152,7 @@ key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
 key_key.tacz.inspect.desc:key.keyboard.h
 key_key.tacz.reload.desc:key.keyboard.r
 key_key.tacz.shoot.desc:key.mouse.left
-key_key.tacz.interact.desc:key.keyboard.o
+key_key.tacz.interact.desc:key.keyboard.f
 key_key.tacz.fire_select.desc:key.keyboard.g
 key_key.tacz.aim.desc:key.mouse.right
 key_key.tacz.crawl.desc:key.keyboard.unknown
@@ -195,7 +195,7 @@ key_gui.xaero_zoom_in:key.keyboard.unknown
 key_gui.xaero_zoom_out:key.keyboard.unknown
 key_gui.xaero_new_waypoint:key.keyboard.b
 key_gui.xaero_waypoints_key:key.keyboard.u
-key_gui.xaero_enlarge_map:key.keyboard.z
+key_gui.xaero_enlarge_map:key.keyboard.unknown
 key_gui.xaero_toggle_map:key.keyboard.unknown
 key_gui.xaero_toggle_waypoints:key.keyboard.unknown
 key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown
@@ -255,7 +255,7 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.z
+key_quark.keybind.change_hotbar:key.keyboard.unknown
 key_quark.keybind.sort_player:key.keyboard.unknown
 key_quark.keybind.sort_container:key.keyboard.unknown
 key_quark.keybind.lock_rotation:key.keyboard.k
@@ -267,7 +267,7 @@ key_Scene2 start/pause:key.keyboard.unknown
 key_Scene3 start/pause:key.keyboard.unknown
 key_Scene reset:key.keyboard.unknown
 key_Quest Log:key.keyboard.unknown
-soundCategory_master:1.0
+soundCategory_master:0.4867549668874172
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

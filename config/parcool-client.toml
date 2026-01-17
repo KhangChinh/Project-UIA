@@ -69,7 +69,7 @@
 	#Enable rotation of camera by Backward Wall-Jump
 	enable_camera_rotation_back_wall_jump = true
 	#Enable rotation of camera by Roll
-	enable_camera_rotation_roll = true
+	enable_camera_rotation_roll = false
 	#Enable rotation of camera by Flipping
 	enable_camera_rotation_flipping = false
 	#Enable animation of camera by Vault
@@ -217,7 +217,7 @@
 	#Caution : Max stamina and stamina recovery config is removed because they became attributes.
 	#Infinite Stamina (this needs a permission from server, even if it is on single player's game. normally permitted)
 	#Please check 'parcool-server.toml' in 'serverconfig' directory
-	infinite_stamina = false
+	infinite_stamina = true
 	#Infinite Stamina while player is creative mode
 	infinite_stamina_if_creative_mode = true
 	#Enable slowing down of stamina exhaustion

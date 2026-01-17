@@ -11,7 +11,7 @@
   "bullet": {
     "life": 0.8,
     "bullet_amount": 1,
-    "damage": 35,
+    "damage": 40,
     "tracer_count_interval": 0,
     "extra_damage": {
       "armor_ignore": 0.25,
@@ -23,8 +23,8 @@
         {"distance": "infinite", "damage": 16}
       ]
     },
-    "speed": 233,
-    "gravity": 0.15,
+    "speed": 388,
+    "gravity": 0.10,
     "knockback": 0.25,
     "friction": 0.02,
     "ignite": false,
@@ -36,20 +36,20 @@
     // 弹匣供弹换弹时长（秒），到达此时间点，服务端就更新枪内子弹数量
     "feed": {
       // 空仓换弹
-      "empty": 2.1
+      "empty": 2.6
     },
     // 弹匣供弹总时长（秒），到达此时间点，枪械才可以进行开火、检视等行为。
     "cooldown": {
       // 空仓换弹
-      "empty": 2.5
+      "empty": 3.1
     }
   },
-  "draw_time": 0.45,
-  "put_away_time": 0.4,
-  "aim_time": 0.15,
+  "draw_time": 0.65,
+  "put_away_time": 0.5,
+  "aim_time": 0.35,
   "sprint_time": 0.25,
-  "bolt_action_time": 2.5,
-  "weight": 3.5,
+  "bolt_action_time": 3.0,
+  "weight": 11.5,
   "movement_speed": {
     // 默认修正
     "base": 0.0,
@@ -86,7 +86,7 @@
     "stand": 3.25,
     "move": 3.5,
     "sneak": 1.75,
-    "lie": 1,
+    "lie": 1.5,
     "aim": 0.21
   },
   // 近战相关
