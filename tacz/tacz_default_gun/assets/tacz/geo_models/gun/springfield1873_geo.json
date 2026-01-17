@@ -3193,7 +3193,7 @@
 				{
 					"name": "lefthand",
 					"parent": "mag_and_lh",
-					"pivot": [-6, 19, 0]
+					"pivot": [-6, 15, 0]
 				},
 				{
 					"name": "lefthand_pos",
