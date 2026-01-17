@@ -13,15 +13,3 @@
 !minecraftinstance.json
 !user-prefs.json
 minecraftinstance.json
-.gitignore
-config/alltheleaks.json
-config/badoptimizations.txt
-config/immediatelyfast.json
-config/modernfix-mixins.properties
-config/ferritecore-mixin.toml
-.gitignore
-config/worldedit/worldedit.properties
-config/modernfix-common.toml
-.gitignore
-usercache.json
-minecraftinstance.json
