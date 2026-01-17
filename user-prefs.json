@@ -34,6 +34,38 @@
         "isSelected": true
       },
       {
+        "path": "config\\CoroUtil",
+        "isSelected": true
+      },
+      {
+        "path": "config\\CoroUtil\\General.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\crash_assistant",
+        "isSelected": true
+      },
+      {
+        "path": "config\\crash_assistant\\crash_assistant_localization_overrides",
+        "isSelected": true
+      },
+      {
+        "path": "config\\crash_assistant\\crash_assistant_localization_overrides\\README.md",
+        "isSelected": true
+      },
+      {
+        "path": "config\\crash_assistant\\config.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\crash_assistant\\modlist.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\crash_assistant\\problematic_mods_config.json",
+        "isSelected": true
+      },
+      {
         "path": "config\\defaultoptions",
         "isSelected": true
       },
@@ -78,11 +110,23 @@
         "isSelected": true
       },
       {
+        "path": "config\\jei\\world\\local\\UIA",
+        "isSelected": true
+      },
+      {
         "path": "config\\jei\\world\\local\\UIUIA",
         "isSelected": true
       },
       {
         "path": "config\\jei\\world\\local\\UIUIA\\bookmarks.ini",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\world\\server",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\world\\server\\Minecraft_Server_1802e5eb",
         "isSelected": true
       },
       {
@@ -151,6 +195,14 @@
       },
       {
         "path": "config\\quark_emotes",
+        "isSelected": true
+      },
+      {
+        "path": "config\\spark",
+        "isSelected": true
+      },
+      {
+        "path": "config\\spark\\config.json",
         "isSelected": true
       },
       {
@@ -1170,6 +1222,14 @@
         "isSelected": true
       },
       {
+        "path": "config\\xaero\\minimap\\profiles\\entity_radar_categories",
+        "isSelected": true
+      },
+      {
+        "path": "config\\xaero\\minimap\\profiles\\entity_radar_categories\\default.cfg.json",
+        "isSelected": true
+      },
+      {
         "path": "config\\xaero\\minimap\\profiles\\info_display_config",
         "isSelected": true
       },
@@ -1234,6 +1294,14 @@
         "isSelected": true
       },
       {
+        "path": "config\\acceleratedrendering-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\alltheleaks.json",
+        "isSelected": true
+      },
+      {
         "path": "config\\Apocalypse Now Config.toml",
         "isSelected": true
       },
@@ -1243,6 +1311,10 @@
       },
       {
         "path": "config\\armorpointspp-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\badoptimizations.txt",
         "isSelected": true
       },
       {
@@ -1302,6 +1374,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\ferritecore-mixin.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\flywheel-client.toml",
         "isSelected": true
       },
@@ -1311,6 +1387,14 @@
       },
       {
         "path": "config\\forge-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\hit_feedback-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\immediatelyfast.json",
         "isSelected": true
       },
       {
@@ -1331,6 +1415,14 @@
       },
       {
         "path": "config\\mapperbase-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\modernfix-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\modernfix-mixins.properties",
         "isSelected": true
       },
       {
@@ -1394,6 +1486,22 @@
         "isSelected": true
       },
       {
+        "path": "config\\watut-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\watut-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\watut-item-arm-adjustments.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\watut-server.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\xaerohud.txt",
         "isSelected": true
       },
@@ -1408,6 +1516,50 @@
       {
         "path": "config\\zeta-common.toml",
         "isSelected": true
+      },
+      {
+        "path": "crash-reports",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2026-01-17_12.49.22-fml.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2026-01-17_12.59.35-fml.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2026-01-17_13.01.00-fml.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2026-01-17_13.02.51-fml.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2026-01-17_13.39.54-client.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2026-01-17_13.41.44-client.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2026-01-17_15.17.58-client.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2026-01-17_15.20.17-client.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2026-01-17_21.19.46-client.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2026-01-17_21.40.52-client.txt",
+        "isSelected": false
       },
       {
         "path": "customnpcs",
@@ -1438,6 +1590,10 @@
         "isSelected": false
       },
       {
+        "path": "datapacks",
+        "isSelected": true
+      },
+      {
         "path": "defaultconfigs",
         "isSelected": false
       },
@@ -1454,7 +1610,379 @@
         "isSelected": false
       },
       {
+        "path": "downloads",
+        "isSelected": false
+      },
+      {
+        "path": "local",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\acceleratedrendering-1.0.8-1.20.1-alpha.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\alltheleaks-1.1.1+1.20.1-forge.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\apocalypsenow-3.0.5-forge-1.20.1.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\appleskin-forge-mc1.20.1-2.5.1.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\architectury-9.2.14-forge.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\armorpointspp-forge-1.20-3.1.1.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\BadOptimizations-2.4.1-1.20.1.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\baguettelib-1.20.1-Forge-1.1.5.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\balm-forge-1.20.1-7.3.38-all.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\bettercombat-forge-1.9.0+1.20.1.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\BiomesOPlenty-1.20.1-18.0.0.592.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\BuildersDelight-1.20.1-v.1.3.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\cfm-forge-1.20.1-7.0.0-pre36.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\cloth-config-11.1.136-forge.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\Clumps-forge-1.20.1-12.0.0.4.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\Controlling-forge-1.20.1-12.0.2.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\coroutil-forge-1.20.1-1.3.7.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\corpse-forge-1.20.1-1.0.23.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\corpsecurioscompat-1.20.1-Forge-3.1.3.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\CrashAssistant-forge-1.19-1.20.1-1.10.28.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\create-1.20.1-6.0.8.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\createdeco-2.0.3-1.20.1-forge.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\curios-forge-5.14.1+1.20.1.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\CustomNPCs-1.20.1-GBPort-Unofficial-20251031.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\daffas_arsenal-3.1.0.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\defaultoptions-forge-1.20.1-18.0.4.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\dummmmmmy-1.20-2.0.9.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\dyairdrop-1.0.0-1.20.1-hotfix3.0.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\Elite X Quality Guns Forge v4.2 - 1.20.1.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\embeddium-0.3.31+mc1.20.1.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\embellishcraft-1.20.1-7.0.0.0.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\ferritecore-6.0.1-forge.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\framework-forge-1.20.1-0.7.15.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\geckolib-forge-1.20.1-4.8.2.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\GPUTape-1.18x-1.21x-1.0.5.1-forge.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\HitFeedback-1.20.1-1.1.8-forge.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\ImmediatelyFast-Forge-1.5.3+1.20.4.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\ImmersiveEngineering-1.20.1-10.2.0-183.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\Jade-1.20.1-Forge-11.13.2.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\jei-1.20.1-forge-15.20.0.112.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\kotlinforforge-4.12.0-all.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\legendarysurvivaloverhaul-1.20.1-2.4.1.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\letsdo-API-forge-1.2.15-forge.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\letsdo-bakery-forge-1.1.15.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\lrtactical-1.20.1-0.3.0.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\mapperbase-1.20.1-6.0.0.0.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\modernfix-forge-5.25.2+mc1.20.1.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\moonlight-1.20-2.16.23-forge.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\MouseTweaks-forge-mc1.20.1-2.25.1.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\ParCool-1.20.1-3.4.3.0.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\ParCool-CompatibilityAddon-1.20.1-3.4.1.5-1.1.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\player-animation-lib-forge-1.0.2-rc1+1.20.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\Quark-4.0-462.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\quark-client-shim-2.0.0.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\refurbished_furniture-forge-1.20.1-1.0.20.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\Searchables-forge-1.20.1-1.0.3.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\sodiumdynamiclights-forge-1.0.10-1.20.1.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\sodiumextras-forge-1.0.7-1.20.1.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\sodiumoptionsapi-forge-1.0.10-1.20.1.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\spark-1.10.53-forge.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\suppressionmod-1.1.1.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\tacz-1.20.1-1.1.7-hotfix.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\tacz-tweaks-2.11.2-all.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\taczammoquery-1.20.1-1.0.0.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\TerraBlender-forge-1.20.1-3.0.1.10.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\toofast-1.20-0.4.3.5.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\watut-forge-1.20.1-1.2.3.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\worldedit-mod-7.2.15.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\xaerominimap-forge-1.20.1-25.3.5.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\xaeroworldmap-forge-1.20.1-1.40.6.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v3\\Zeta-1.0-31.jar.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\3404_1768660983511.info",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\3404_1768660983511_app.jar",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\3404_1768660983511_args.info",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\3404_1768660983511_gpu-detect-jni.dll",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\3404_1768660983511_mod.jar",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\CONFIG_LOCK.tmp",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\gpu-detect-jni-README.MD",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\local_config.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\normal_stop_pid3404.tmp",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\renderer_pid3404.tmp",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\successful_launch_pid3404.tmp",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\username.info",
+        "isSelected": false
+      },
+      {
         "path": "logs",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app.log",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2026-01-17_21-19-02.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2026-01-17_21-21-11.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2026-01-17_21-34-51.log.gz",
         "isSelected": false
       },
       {
@@ -1462,7 +1990,107 @@
         "isSelected": false
       },
       {
-        "path": "logs\\telemetry\\20260117-1.json",
+        "path": "logs\\telemetry\\20260117-1.json.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\telemetry\\20260117-10.json.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\telemetry\\20260117-11.json.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\telemetry\\20260117-12.json.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\telemetry\\20260117-13.json.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\telemetry\\20260117-14.json.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\telemetry\\20260117-15.json.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\telemetry\\20260117-16.json.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\telemetry\\20260117-2.json.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\telemetry\\20260117-3.json.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\telemetry\\20260117-4.json.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\telemetry\\20260117-5.json.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\telemetry\\20260117-6.json.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\telemetry\\20260117-7.json.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\telemetry\\20260117-8.json.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\telemetry\\20260117-9.json.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-17-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-17-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-17-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-17-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-17-5.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-17-6.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-01-17-7.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\customnpcs-1.log",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\customnpcs-2.log",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\customnpcs-3.log",
         "isSelected": false
       },
       {
@@ -1471,6 +2099,14 @@
       },
       {
         "path": "logs\\latest.log",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\modlist.txt",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\stderr_stream.log",
         "isSelected": false
       },
       {
@@ -1530,7 +2166,23 @@
         "isSelected": true
       },
       {
+        "path": "mods\\Clumps-forge-1.20.1-12.0.0.4.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\Controlling-forge-1.20.1-12.0.2.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\coroutil-forge-1.20.1-1.3.7.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\corpse-forge-1.20.1-1.0.23.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\CrashAssistant-forge-1.19-1.20.1-1.10.28.jar",
         "isSelected": true
       },
       {
@@ -1547,6 +2199,10 @@
       },
       {
         "path": "mods\\CustomNPCs-1.20.1-GBPort-Unofficial-20251031.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\daffas_arsenal-3.1.0.jar",
         "isSelected": true
       },
       {
@@ -1578,7 +2234,15 @@
         "isSelected": true
       },
       {
+        "path": "mods\\geckolib-forge-1.20.1-4.8.2.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\GPUTape-1.18x-1.21x-1.0.5.1-forge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\HitFeedback-1.20.1-1.1.8-forge.jar",
         "isSelected": true
       },
       {
@@ -1674,6 +2338,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\spark-1.10.53-forge.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\suppressionmod-1.1.1.jar",
         "isSelected": true
       },
@@ -1695,6 +2363,14 @@
       },
       {
         "path": "mods\\toofast-1.20-0.4.3.5.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\trashslot-forge-1.20.1-15.1.3.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\watut-forge-1.20.1-1.2.3.jar",
         "isSelected": true
       },
       {
@@ -1732,6 +2408,10 @@
       {
         "path": "schematics",
         "isSelected": false
+      },
+      {
+        "path": "shaderpacks",
+        "isSelected": true
       },
       {
         "path": "tacz",
@@ -18434,6 +19114,10 @@
         "isSelected": false
       },
       {
+        "path": "tacz_backup\\elitex_quality_guns",
+        "isSelected": false
+      },
+      {
         "path": "tacz_backup\\tacz_default_gun",
         "isSelected": false
       },
@@ -18458,15 +19142,23 @@
         "isSelected": false
       },
       {
+        "path": "xaero\\minimap\\Multiplayer_26.209.222.193",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\Multiplayer_26.209.222.193\\dim%0",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\Multiplayer_26.209.222.193\\dim%0\\mw$773170251_1.txt",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\minimap\\Multiplayer_26.209.222.193\\config.txt",
+        "isSelected": false
+      },
+      {
         "path": "xaero\\minimap\\UIUIA",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\minimap\\UIUIA\\dim%0",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\minimap\\UIUIA\\dim%0\\waypoints.txt",
         "isSelected": false
       },
       {
@@ -18478,6 +19170,166 @@
         "isSelected": false
       },
       {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\cache\\3",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\cache_1\\-1_-1.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\cache_1\\-1_0.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\cache_1\\0_-1.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\cache_1\\0_0.xwmc.outdated",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-1\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-1\\cache\\3",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-1\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-1\\cache_1\\-1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-1\\cache_1\\-1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-1\\cache_1\\0_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-1\\cache_1\\0_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-1\\-1_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-1\\-1_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-1\\0_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-1\\0_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-2",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-2\\cache_1",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-2\\cache_1\\-1_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-2\\cache_1\\-1_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-2\\cache_1\\0_-1.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-2\\cache_1\\0_0.xwmc",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-2\\-1_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-2\\-1_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-2\\0_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\caves\\-2\\0_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\-1_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\-1_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\.lock",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\0_-1.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\mw$773170251\\0_0.zip",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\null\\dimension_config.txt",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\Multiplayer_26.209.222.193\\server_config.txt",
+        "isSelected": false
+      },
+      {
         "path": "xaero\\world-map\\UIUIA",
         "isSelected": false
       },
@@ -18486,23 +19338,31 @@
         "isSelected": false
       },
       {
+        "path": "xaero\\world-map\\UIUIA\\null\\cache",
+        "isSelected": false
+      },
+      {
+        "path": "xaero\\world-map\\UIUIA\\null\\cache\\3",
+        "isSelected": false
+      },
+      {
         "path": "xaero\\world-map\\UIUIA\\null\\cache_1",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\UIUIA\\null\\cache_1\\-1_-1.xwmc",
+        "path": "xaero\\world-map\\UIUIA\\null\\cache_1\\-1_-1.xwmc.outdated",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\UIUIA\\null\\cache_1\\-1_0.xwmc",
+        "path": "xaero\\world-map\\UIUIA\\null\\cache_1\\-1_0.xwmc.outdated",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\UIUIA\\null\\cache_1\\0_-1.xwmc",
+        "path": "xaero\\world-map\\UIUIA\\null\\cache_1\\0_-1.xwmc.outdated",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\UIUIA\\null\\cache_1\\0_0.xwmc",
+        "path": "xaero\\world-map\\UIUIA\\null\\cache_1\\0_0.xwmc.outdated",
         "isSelected": false
       },
       {
@@ -18518,43 +19378,19 @@
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-1\\cache_1\\-1_-1.xwmc",
+        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-1\\cache_1\\-1_-1.xwmc.outdated",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-1\\cache_1\\-1_0.xwmc",
+        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-1\\cache_1\\-1_0.xwmc.outdated",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-1\\cache_1\\0_-1.xwmc",
+        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-1\\cache_1\\0_-1.xwmc.outdated",
         "isSelected": false
       },
       {
-        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-1\\cache_1\\0_0.xwmc",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-2",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-2\\cache_1",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-2\\cache_1\\-1_-1.xwmc",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-2\\cache_1\\-1_0.xwmc",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-2\\cache_1\\0_-1.xwmc",
-        "isSelected": false
-      },
-      {
-        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-2\\cache_1\\0_0.xwmc",
+        "path": "xaero\\world-map\\UIUIA\\null\\caves\\-1\\cache_1\\0_0.xwmc.outdated",
         "isSelected": false
       },
       {
@@ -18570,11 +19406,23 @@
         "isSelected": false
       },
       {
+        "path": "XaeroWaypoints_BACKUP240807",
+        "isSelected": false
+      },
+      {
+        "path": "XaeroWaypoints_BACKUP240807\\backup",
+        "isSelected": false
+      },
+      {
         "path": ".curseclient",
         "isSelected": false
       },
       {
         "path": ".gitignore",
+        "isSelected": false
+      },
+      {
+        "path": ".qmenu_opened.marker",
         "isSelected": false
       },
       {
