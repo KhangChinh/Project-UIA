@@ -9,5 +9,5 @@
 
 # 3. Ngoại trừ file options.txt
 !/options.txt
-minecraftinstance.json
-user-prefs.json
+!minecraftinstance.json
+!user-prefs.json
